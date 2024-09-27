@@ -1,5 +1,5 @@
 FROM denoland/deno:bin-1.39.0 AS deno
-FROM swift:5.9.2-focal
+FROM swift:6.0.1-focal
 
 WORKDIR /app
 
